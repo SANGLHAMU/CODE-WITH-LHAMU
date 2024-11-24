@@ -1,120 +1,138 @@
-.first-div{
+.container{
+    display: flex ;
+width: 850px;
+}
+
+.first-div {
     display: flex;
     gap: 5%;
-    padding: 5px;
-    height: 100px;
-    border:2px solid black;
-    justify-content:flex-start;
-
-}
-.first-div-red{
-    border:1px solid green;
-    background-color:red;
-    height:100px;
-    width:100px;
+    padding: 5PX;
+    height: 600px;
+    width: 2000px;
+    border : 2px solid black;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.first-div-green{
-    border:1px solid green;
-    background-color:rgb(4, 255, 0);
-    height:100px;
-    width:100px;
+.first-div-red {
+    border: 1px solid red;
+    background-color: #ff0000;
+    width: 100px;
+    height: 90px;
+    
 }
 
-.first-div-blue{
-    border:1px solid green;
-    background-color:rgb(41, 4, 254);
-    height:100px;
-    width:100px;
+.first-div-green {
+    border: 1px solid green;
+    background-color: green;
+    height: 90px;
+    width: 100px;
 }
 
-.second-div{
+.First-div-blue {
+    border: 1px solid blue;
+    background-color: blue;
+    height: 90px;
+    width: 100px;
+}
+
+.second-div {
     display: flex;
     gap: 5%;
-    padding: 5px;
-    height: 100px;
-    border:2px solid black;
+    padding: 5PX;
+    height: 600PX;
+    width: 2000px;
+    border : 2px solid black;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.second-div-red {
+    border: 1px solid red;
+    background-color: red;
+    width: 100px;
+    height: 90px;
+}
+
+.second-div-green {
+    border: 1px solid green;
+    background-color: green;
+    height: 90px;
+    width: 100px;
+    
+}
+
+.second-div-blue {
+    border: 1px solid blue;
+    background-color: blue;
+    height: 90px;
+    width: 100px;
+    
+}
+
+.third-div {
+    display: flex;
+    gap: 5%;
+    padding: 5PX;
+    height: 600PX;
+    width: 2000px;
+    border : 2px solid black;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+.third-div-red {
+    border: 1px solid red;
+    background-color: red;
+    width: 100px;
+    height: 90px;
+}
+
+.third-div-green {
+    border: 1px solid green;
+    background-color: green;
+    height: 90px;
+    width: 100px;
+    
+}
+
+.third-div-blue {
+    border: 1px solid blue;
+    background-color: blue;
+    height: 90px;
+    width: 100px;
+    
+}
+
+.fourth-div {
+    display: flex;
+    gap: 10%;
+    padding: 5PX;
+    height: 600PX;
+    width: 2000px;
+    border :   2px solid black;
     justify-content:center;
+    flex-direction: column;
 }
 
+.fourth-div-red {
+    border: 1px solid red;
+    background-color: red;
+    width: 100px;
+    height: 90px;
+}
 
-.second-div-red{
-    border:1px solid rgb(14, 14, 14);
-    background-color:red;
-    height:100px;
+.fourth-div-green {
+    border: 1px solid green;
+    background-color: green;
+    height: 90px;
+    width: 100px;
+    
+}
+.fourth-div-blue {
+    border: 1px solid rgb(6, 12, 193);
+    background-color: rgb(11, 11, 220);
+    height: 90px;
     width:100px;
-}
-
-.second-div-green{
-    border:1px solid rgba(9, 9, 9, 0.973);
-    background-color:rgba(38, 247, 5, 0.982);
-    height:100px;
-    width:100px;
-}
-
-.second-div-blue{
-    border:1px solid rgba(9, 9, 9, 0.973);
-    background-color:rgba(57, 5, 247, 0.982);
-    height:100px;
-    width:100px;
-}
-
-.third-div{
-    display: flex;
-    gap: 5%;
-    padding: 5px;
-    height: 100px;
-    border:2px solid black;
-    justify-content:flex-end;
-}
-
-.third-div-red{
-    border:1px solid rgb(14, 14, 14);
-    background-color:red;
-    height:100px;
-    width:100px;
-}
-
-.third-div-green{
-    border:1px solid rgba(9, 9, 9, 0.973);
-    background-color:rgba(38, 247, 5, 0.982);
-    height:100px;
-    width:100px;
-}
-
-.third-div-blue{
-    border:1px solid rgba(9, 9, 9, 0.973);
-    background-color:rgba(57, 5, 247, 0.982);
-    height:100px;
-    width:100px;
-}
-
-.fourth-div{
-    display: flex;
-    gap: 5%;
-    padding: 5px;
-    height: 100px;
-    border:2px solid black;
-    justify-content:space-between;
-}
-
-.fourth-div-red{
-    border:1px solid rgb(14, 14, 14);
-    background-color:red;
-    height:100px;
-    width:100px;
-}
-
-.fourth-div-green{
-    border:1px solid rgba(9, 9, 9, 0.973);
-    background-color:rgba(38, 247, 5, 0.982);
-    height:100px;
-    width:100px;
-}
-
-.fourth-div-blue{
-    border:1px solid rgba(9, 9, 9, 0.973);
-    background-color:rgba(57, 5, 247, 0.982);
-    height:100px;
-width:100px;
 }
