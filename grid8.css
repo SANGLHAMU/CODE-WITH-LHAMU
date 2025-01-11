@@ -1,0 +1,52 @@
+.container{
+    height:100vh;
+display: grid;
+grid-template-rows: repeat(4, 100px);
+grid-template-columns: repeat(5, 100px);
+gap: 10px;
+padding: 20px;
+grid-template-areas: 
+"H H A A A"
+"H H I I S"
+"F F I I C"
+
+}
+
+.box1{
+background-color:violet;
+border-radius: 5px;
+grid-area: H;
+width:100%;
+}
+
+.box2{
+background-color: lightblue;
+border-radius: 5px;
+grid-area:A;
+
+}
+
+.box3{
+background-color:darkgreen;
+border-radius: 5px;
+grid-area: I;
+width:100%
+}
+
+.box4{
+background-color:yellow;
+border-radius: 5px;
+grid-area: S;
+}
+
+.box5{
+    background-color:blue;
+    border-radius: 5px;
+    grid-area: F;
+}
+
+.box6{
+    background-color:red;
+    border-radius: 5px;
+grid-area:C;
+}

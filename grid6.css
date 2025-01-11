@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.grid-item {
+    background-color: #f26d6d;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.grid-item:nth-child(odd) {
+    background-color: #f2a86d;
+}
+
+.grid-item.large {
+    grid-column: span 4;
+    height: 50px;
+}
