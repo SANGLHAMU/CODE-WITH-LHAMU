@@ -4,103 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CODE WITH LHAMU</title>
-    <link rel="stylesheet" href="index.css">
-
     <style>
+        /* Body Style */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            color: #444;
+            animation: changeBackground 20s infinite; /* Background animation */
+            overflow: hidden; /* Prevents scrolling */
+        }
+
+        /* Background Animation */
+        @keyframes changeBackground {
+            0% { background-image: url("https://cdn.pixabay.com/photo/2022/02/17/14/15/rabbit-7018901_640.jpg"); }
+            33% { background-image: url("https://cdn.pixabay.com/photo/2016/11/21/14/47/kitten-1845789_640.jpg"); }
+            66% { background-image: url("https://cdn.pixabay.com/photo/2023/10/06/10/55/toddler-8297939_640.jpg"); }
+            100% { background-image: url("https://cdn.pixabay.com/photo/2019/11/09/22/10/panda-4614567_640.jpg"); }
+        }
+
+        /* Background settings for animation */
+        body {
+            background-size: cover;
+            background-position: center;
+            animation: changeBackground 20s infinite linear;
+        }
+
+        /* Heading Style */
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 40px;
+            color: #FF6EB7; /* Soft pink */
+            text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.6);
+            opacity: 0.7; /* Reduced transparency for heading */
+        }
+
+        /* Table Styling */
+        table {
+            width: 80%;
+            margin: 50px auto;
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.5); /* More transparent white background */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            opacity: 0.8; /* Increased transparency for table */
+        }
+
+        th, td {
+            padding: 12px 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+            opacity: 0.8; /* Reduced opacity for table content */
+        }
+
+        th {
+            background-color: rgba(255, 182, 193, 0.9); /* Light pink with transparency */
+            color: #fff;
+        }
+
+        td {
+            background-color: rgba(249, 249, 249, 0.8); /* Slightly transparent */
+        }
+
+        /* Links Styling */
+        a {
+            text-decoration: none;
+            color: #FF1493; /* Hot pink */
+            font-weight: bold;
+        }
+
         a:hover {
-            color:violet;
-            text-decoration:none;
+            color: #ff69b4; /* Lighter pink */
+            text-decoration: underline;
+        }
+
+        /* Table Borders */
+        table, th, td {
+            border: 2px solid #FFB6C1;
         }
 
     </style>
 </head>
 <body>
-    <h1 class="hr">CODE WITH LHAMU</h1>
-    <table border="1" cellpadding="10" cellspacing="0">
-        <head>
+
+    <h1>CODE WITH LHAMU</h1>
+
+    <table>
+        <thead>
             <tr>
-            <div class="header">
                 <th>Sl No</th>
-                <th>Name of the Task</th>
+                <th>Task Name</th>
                 <th>Description</th>
-                <th>Links of My work's</th>
-            </div>
-        </tr>
-        </head>
-        <body>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>First Webpage</td>
+                <td>Copying first webpage</td>
+                <td><a href="Task1.html">Click Here</a></td>
             </tr>
             <tr>
-                <td class="sl">1</td>
-                <td>FIRST WEBPAGE</td>
-                <td>COPYING FIRST WEBPAGE</td>
-                <td><a href="Task1.html" style="text-decoration:none" color="red">Click Here</a></td>
+                <td>2</td>
+                <td>HTML Forms</td>
+                <td>Creating and using forms in HTML</td>
+                <td><a href="Task2.html">Click Here</a></td>
             </tr>
             <tr>
-                <td class="sl">2</td>
-                <td>HTML FORMS</td>
-                <td>HOW TO CREATE AND USE FORMS IN HTML</td>
-                <td><a href="Task2.html" style="text-decoration:none">Click Here</a></td>
+                <td>3</td>
+                <td>HTML Table</td>
+                <td>Creating tables to organize data</td>
+                <td><a href="Task3.html">Click Here</a></td>
             </tr>
             <tr>
-                <td class="sl">3</td>
-                <td>HTML TABLE</td>
-                <td>CREATING TABLES TO ORGANIZE DATA IN HTML</td>
-                <td><a href="Task3.html" style="text-decoration:none">Click Here</a></td>
-            </tr>
-            <td class="sl">4</td>
-                <td>CLONING WEBSITE</td>
-                <td>CLONING pbanks.net</td>
-                <td><a href="Home.html" style="text-decoration:none">Click Here</a></td>
+                <td>4</td>
+                <td>Cloning Website</td>
+                <td>Cloning pbanks.net</td>
+                <td><a href="Home.html">Click Here</a></td>
             </tr>
             <tr>
-                <td class="sl">5</td>
-                <td>FLEX BOX</td>
-                <td>FLEX BOX WORK</td>
-                <td><a href="flex.html" style="text-decoration:none">Click Here</a></td>
-                </tr>
-                <tr>
-                    <td class="sl">6</td>
-                <td>CONTENT FLEX BOX</td>
-                <td>CONTENT</td>
-                <td><a href="content.html" style="text-decoration:none">Click Here</a></td>
-                </tr>
-                <tr>
-                    <td class="sl">7</td>
-                <td>FONTS</td>
-                <td>USING GOOGLE FONTS</td>
-                <td><a href="fonts.html" style="text-decoration:none">Click Here</a></td>
-                </tr>
-                <tr>
-                    <td class="sl">8</td>
-                <td>CLONING WEBSITE</td>
-                <td>CLONING A REAL WEBSITE</td>
-                <td><a href="nelson.html" style="text-decoration:none">Click Here</a></td>
-                </tr>
-                <tr>
-                    <td class="sl">9</td>
-                <td>CARD</td>
-                <td>MAKING CARD USING CSS & HTML</td>
-                <td><a href="card.html" style="text-decoration:none">Click Here</a></td>
-                </tr>
-        <tr>
-                    <td class="sl">10</td>
-                <td>CLONING WEBSITE</td>
-                <td>CLONING A REAL WEBSITE</td>
-                <td><a href="ivan.html" style="text-decoration:none">Click Here</a></td>
-                </tr>
-        <tr>
-                    <td class="sl">12</td>
-                <td>GRID WORK</td>
-                <td>USE OF GRID CSS</td>
-                <td><a href="grid.html" style="text-decoration:none">Click Here</a></td>
-                </tr>
-             <tr>
-                    <td class="sl">13</td>
-                <td>TOURISM WEBSITE</td>
-                <td>MAKING TOURISM WEBSITE USING HTML AND CSS</td>
-                <td><a href="namchi.html" style="text-decoration:none">Click Here</a></td>
-                </tr>
-        </body>   
+                <td>5</td>
+                <td>Flexbox</td>
+                <td>Working with flexbox</td>
+                <td><a href="flex.html">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Content Flexbox</td>
+                <td>Content layout with flexbox</td>
+                <td><a href="content.html">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Google Fonts</td>
+                <td>Using Google Fonts</td>
+                <td><a href="fonts.html">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Cloning Website</td>
+                <td>Cloning a real website</td>
+                <td><a href="nelson.html">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Card</td>
+                <td>Creating cards with HTML & CSS</td>
+                <td><a href="card.html">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Cloning Website</td>
+                <td>Cloning a real website</td>
+                <td><a href="ivan.html">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Grid Work</td>
+                <td>Using CSS Grid</td>
+                <td><a href="grid.html">Click Here</a></td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Tourism Website</td>
+                <td>HTML & CSS tourism website</td>
+                <td><a href="namchi.html">Click Here</a></td>
+            </tr>
+        </tbody>
     </table>
+
 </body>
 </html>
